@@ -69,11 +69,11 @@ ul {
     color: #404BBF;
 }
 
-.section-1 {
+.section1 {
     background-color: #2E2F42;
 }
 
-.section-1-title {
+.section-title1 {
   color: var(--white, #fff);
   text-align: center;
   font-size: 56px;
@@ -83,7 +83,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.button-1 {
+.button1 {
     cursor: pointer;
     background-color: #4d5ae5;
     font-weight: 500;
@@ -92,28 +92,28 @@ ul {
     color: #ffffff;
 }
 
-.button-1:hover {
-    color: #404BBF;
+.button1:hover {
+    background-color: #404BBF;
 }
 
-.button-1:focus {
-    color: #404BBF;
+.button1:focus {
+    background-color: #404BBF;
 }
 
-.section-2 {
+.section2 {
     background-color: #FFF;
 }
 
-.section-2-title {
+.section-title2 {
     color: #2E2F42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 
-.section-2-text {
+.section-text2 {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
@@ -123,17 +123,17 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.section-3 {
+.section3 {
     background: var(--CLOUD, #F4F4FD);
 }
 
-.section-3-title {
+.section-title3 {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-size: 36px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 1.1;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -142,18 +142,18 @@ ul {
     background-color: #fff;
 }
 
-.section-4-title {
+.section-title4 {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.section-4-text {
+.section-text4 {
     color: var(--SLATE, #434455);
     text-align: center;
     font-family: Roboto;
@@ -164,7 +164,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.section-5-title {
+.section-title5 {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
@@ -175,7 +175,7 @@ ul {
     text-transform: capitalize;
 }
 
-.section-6-title {
+.section-title6 {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
     font-size: 20px;
@@ -185,7 +185,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.section-6-text {
+.section-text6 {
     color: var(--SLATE, #434455);
     font-family: Roboto;
     font-size: 16px;
@@ -207,4 +207,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.logo-studio2 {
+    color: #f4f4fd;
+    text-decoration: none;
 }
