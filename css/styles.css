@@ -20,6 +20,13 @@ img {
     justify-content: space-between;
 }
 
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+
 .page-navigation {
     display: flex;
     color: #2e2f42;
@@ -165,7 +172,7 @@ ul {
     padding: 120px 0;
 }
 
-.section-titlell {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -178,6 +185,11 @@ ul {
     overflow: hidden;
 }
 
+.features-li {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    background-color: #ffffff;
+}
 .features {
     display: flex;
     justify-content: space-between;
@@ -244,6 +256,7 @@ ul {
 .list-team {
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .sectionllll {
