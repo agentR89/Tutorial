@@ -280,7 +280,7 @@ ul {
     text-transform: capitalize;
 }
 
-.porttfolio-ul {
+.portfolio-ul {
     display: flex;
     justify-content: space-between;
     column-gap: 24px;
@@ -383,6 +383,12 @@ ul {
   display: inline-block;
   margin-bottom: 16px;
   align-items: center;
+}
+
+.portfolio-li {
+   width: calc((100% - 72px) /4);
+   background: #fff;
+   border-radius: 0px 0px 4px 4px;
 }
 
 .logofooter-studio {
