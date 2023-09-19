@@ -13,6 +13,8 @@ img {
 .page-header {
     margin-bottom: 0;
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-flex-container {
@@ -74,6 +76,16 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.tabs-current {
+    color: var(--OCEAN, #404BBF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .tabs {
