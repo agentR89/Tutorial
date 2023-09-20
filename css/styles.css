@@ -78,21 +78,28 @@ ul {
     gap: 40px;
 }
 
-.tabs-current {
-    color: var(--OCEAN, #404BBF);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+.current {
+    position: relative;
+    color: #404bbf;
 }
 
 .tabs {
+    position: relative;
+    color: #434455;
     text-decoration: none;
-    color: #2E2F42;
     padding: 24px 0;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tabs:hover {
