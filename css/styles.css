@@ -78,6 +78,21 @@ ul {
     gap: 40px;
 }
 
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+.current {
+    position: relative;
+    color: #404bbf;
+}
+
 .tabs {
     position: relative;
     color: #434455;
