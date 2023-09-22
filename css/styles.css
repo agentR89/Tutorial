@@ -78,7 +78,7 @@ ul {
     gap: 40px;
 }
 
-.current::after {
+.tabs-current::after {
     content: '';    
     position: absolute;
     left: 0;
@@ -88,6 +88,7 @@ ul {
     background-color: #404bbf;
     border-radius: 2px;
   }
+
 .tabs-current {
     position: relative;
     color: #404bbf;
@@ -108,22 +109,6 @@ ul {
 
 .tabs:focus {
     color: #404bbf;
-}
-
-.current::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 100%;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
-
-.tabs-current {
-    position: relative;
-    color: var(--OCEAN, #404BBF);
 }
 
 .contact {
